@@ -1,0 +1,32 @@
+.status{
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.status.true{
+  background-color: green;
+}
+
+.status.false{
+  background-color: red;
+}
+
+.friend_list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.item{
+  position: relative;
+  display: flex;
+  gap: 5px;
+}
+
+.avatar{
+  margin-left: 20px;
+}
