@@ -23,12 +23,10 @@ export function App() {
       />
 
       <p>Second</p>
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics title="" stats={data} />
 
       <p>Third</p>
-      <ul className="friend-list">
-        <FriendList friends={friends}/>
-      </ul>
+      <FriendList friends={friends}/>
       
       <p>Fourth</p>
       <TransactionHistory items={transactions} />
